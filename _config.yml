@@ -5,9 +5,9 @@
 # Site
 title: 枝茵
 subtitle:
-description: 枝茵南浔
+description:
 keywords:
-author: 枝唔不言
+author: 南浔
 language: zh-CN
 timezone:
 
@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zhiyin.one
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -39,7 +39,13 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+emoji:
+  enable: true
+  className: github-emoji
+  styles:
+    font-size: 2em
+    font-weight: bold
+  customEmojis:
 future: true
 highlight:
   enable: true
